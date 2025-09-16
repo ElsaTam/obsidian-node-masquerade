@@ -1,0 +1,15 @@
+{
+    "add": "添加",
+    "delete": "删除",
+    "disable": "禁用",
+    "enable": "启用",
+    "namesNumberOfCharacters": "字符限制",
+    "namesNumberOfCharactersDesc": "显示节点名称的最大字符数。留空显示完整名称。",
+    "namesShowOnlyFileName": "仅文件名",
+    "namesShowOnlyFileNameDesc": "仅显示文件名不含路径",
+    "namesNoExtension": "隐藏扩展名",
+    "namesNoExtensionDesc": "从名称中移除文件扩展名",
+    "namesUseProperties": "使用属性",
+    "namesUsePropertiesDesc": "使用下列属性之一指定的值作为节点名称而非文件名",
+    "namesUsePropertiesAdd": "添加节点名称属性"
+}

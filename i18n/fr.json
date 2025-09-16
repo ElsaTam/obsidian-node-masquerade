@@ -1,0 +1,15 @@
+{
+	"add": "Ajouter",
+	"delete": "Supprimer",
+	"disable": "Désactiver",
+	"enable": "Activer",
+	"namesNumberOfCharacters": "Nombre de caractères",
+	"namesNumberOfCharactersDesc": "Nombre maximum de caractères à afficher pour le nom du nœud. Laissez vide pour afficher le nom complet. Choisissez le(s) caractère(s) à afficher si le nom est tronqué.",
+	"namesShowOnlyFileName": "Nom de fichier",
+	"namesShowOnlyFileNameDesc": "Afficher seulement le nom de fichier sans le chemin",
+	"namesNoExtension": "Sans extension",
+	"namesNoExtensionDesc": "Afficher le nom de fichier sans l'extension",
+	"namesUseProperties": "Utiliser des propriétés",
+	"namesUsePropertiesDesc": "Utiliser des propriétés pour le nom du nœud plutôt que le nom de fichier",
+	"namesUsePropertiesAdd": "Ajouter une propriété pour le nom"
+}

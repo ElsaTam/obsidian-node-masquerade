@@ -1,0 +1,16 @@
+{
+    "add": "Add",
+    "delete": "Delete",
+    "disable": "Disable",
+    "enable": "Enable",
+    "namesEllipsisPlaceholder": "…",
+    "namesNumberOfCharacters": "Characters limit",
+    "namesNumberOfCharactersDesc": "Maximum number of characters to display for the node name. Leave empty to display the full name. Choose the character(s) that should be displayed if the name is truncated.",
+    "namesShowOnlyFileName": "Filename only",
+    "namesShowOnlyFileNameDesc": "Show only the file name without the path",
+    "namesNoExtension": "Hide extension",
+    "namesNoExtensionDesc": "Remove the file extension from the name",
+    "namesUseProperties": "Use properties",
+    "namesUsePropertiesDesc": "Use one of the desired properties as the node name instead of the filename",
+    "namesUsePropertiesAdd": "Add node name property"
+}

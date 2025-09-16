@@ -1,0 +1,11 @@
+{
+	"id": "node-masquerade",
+	"name": "Node masquerade",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Modify the label of your nodes in the graph view",
+	"author": "Kapirklaa",
+	"authorUrl": "https://github.com/ElsaTam",
+	"fundingUrl": "https://github.com/sponsors/ElsaTam",
+	"isDesktopOnly": false
+}
