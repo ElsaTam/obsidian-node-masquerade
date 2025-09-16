@@ -1,6 +1,6 @@
 # Node Masquerade
 
-This plugin is based on my original and bigger plugin Extended Graph, but focus only on modifying the nodes names. It aims at being more efficient for big vaults while offering only a specific subset of features.
+This plugin is based on my original and bigger plugin [Extended Graph](https://github.com/ElsaTam/obsidian-extended-graph), but focus only on modifying the nodes names. It aims at being more efficient for big vaults while offering only a specific subset of features.
 
 ## Installation
 
@@ -11,7 +11,7 @@ For now, it is only available through BRAT:
 
 ## Usage
 
-As opposed to the Extended Graph plugin, the Node Masquerade plugin will always be enabled by default. You can toggle it from the command palette in case you want to display back the original names of your nodes.
+Unlike the Extended Graph plugin, the Node Masquerade plugin will always be enabled by default and settings will be applied dynamically. You can toggle it from the command palette in case you want to display back the original names of your nodes.
 
 ## Features
 
