@@ -1,8 +1,31 @@
-/*
+.node-masquerade-settings {
+    input.small-input {
+        max-width: 5em;
+    }
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.node-masquerade-add-button {
+    --text-color: var(--color-green);
+}
 
-If your plugin does not need CSS, delete this file.
+.node-masquerade-delete-button {
+    --icon-color: var(--color-red);
+}
 
-*/
+.graph-modal-setting-properties {
+    .properties-list {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: var(--size-4-2);
+        column-gap: var(--size-4-6);
+        padding-top: var(--size-4-4);
+    }
+
+    .property-value {
+        display: flex;
+    }
+
+    .node-masquerade-add-button {
+        margin-inline-start: var(--size-4-2);
+    }
+}

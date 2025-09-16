@@ -9,6 +9,7 @@ export class NodeMasqueradeSettingTab extends PluginSettingTab {
     constructor(app: App, plugin: NodeMasqueradePlugin) {
         super(app, plugin);
         this.plugin = plugin;
+        this.containerEl.addClass("node-masquerade-settings")
     }
 
     display(): void {
@@ -27,7 +28,7 @@ export class NodeMasqueradeSettingTab extends PluginSettingTab {
             .setName(t("namesNumberOfCharacters"))
             .setDesc(t("namesNumberOfCharactersDesc"))
             .addText(cb => {
-                cb.inputEl.addClass("number");
+                cb.inputEl.addClass("small-input");
                 cb.setValue(this.plugin.settings.numberOfCharacters?.toString() || '')
                     .onChange(async (value) => {
                         const intValue = parseInt(value);
@@ -42,7 +43,7 @@ export class NodeMasqueradeSettingTab extends PluginSettingTab {
                     })
             })
             .addText(cb => {
-                cb.inputEl.addClass("number");
+                cb.inputEl.addClass("small-input");
                 cb.setPlaceholder(t("namesEllipsisPlaceholder"))
                 cb.setValue(this.plugin.settings.ellipsis.toString())
                     .onChange(async (value) => {

@@ -24,8 +24,9 @@ export class SettingMultiPropertiesModal extends Modal {
             .onClick(() => {
                 this.addProperty("");
             })
-        addButton.setIcon('plus');
-        addButton.setTooltip(t("add"));
+            .setIcon('plus')
+            .setTooltip(t("add"));
+        addButton.buttonEl.addClass("node-masquerade-add-button");
     }
 
     private loadProperties() {
@@ -56,9 +57,10 @@ export class SettingMultiPropertiesModal extends Modal {
         const deleteButton = new ExtraButtonComponent(inputDiv)
             .onClick(() => {
                 this.deleteProperty(inputDiv, input);
-            });
-        deleteButton.setIcon('trash-2');
-        deleteButton.setTooltip(t("delete"));
+            })
+            .setIcon('trash-2')
+            .setTooltip(t("delete"));
+        deleteButton.extraSettingsEl.addClass("node-masquerade-delete-button");
     }
 
     private deleteProperty(inputDiv: HTMLElement, input: SearchComponent) {
